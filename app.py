@@ -86,6 +86,18 @@ SKILLS = {
 
 # Projects — edit freely. `link` is optional (leave "" if not public yet).
 PROJECTS = [
+ {
+        "title": "Visit Jimma Full-steck website",
+        "description": (
+           "This Website enables peaople all over the world to book hotels, tours and other"
+           "You can  have information about jimma online"
+        ),
+        "tags": ["Full-stack web", "VisitJimma", "Smart city", "Aba jifar palace"],
+        "link": "https://visitjimma.infinityfreeapp.com",
+    },
+
+
+
     {
         "title": "DDoS Attack Detection (Attention-BiLSTM)",
         "description": (
