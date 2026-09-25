@@ -30,11 +30,11 @@ TAGLINE = (
     "languages, computer vision, medical image analysis, and network security."
 )
 
-# Optional contact links — fill these in with your own, or leave blank to hide.
-EMAIL = "gelana.abdisa@ju.edu.et"            # e.g. "gelana@example.com"
-LINKEDIN_URL = "https://www.linkedin.com/in/gelana"     # e.g. "https://linkedin.com/in/your-profile"
-GITHUB_URL = "https://github.com/gelanabadisa"       # e.g. "https://github.com/gelanabadisa"
-PHONE = "+251921833044"            # e.g. "+251 9xx xxx xxx"
+EMAIL = "gelana.abdisa@ju.edu.et"           
+LINKEDIN_URL = "https://www.linkedin.com/in/gelana"     
+GITHUB_URL = "https://github.com/gelanabadisa"      
+PHONE = "+251921833044"           
+HuggingFace_URL= "https://huggingface.co/galigalo"
 
 ABOUT = """
 I am a Lecturer and Department Head of Computer Science at Jimma University,
@@ -206,6 +206,8 @@ with col2:
         contact_bits.append(f"[LinkedIn]({LINKEDIN_URL})")
     if GITHUB_URL:
         contact_bits.append(f"[GitHub]({GITHUB_URL})")
+    if HuggingFace_URL:
+            contact_bits.append(f"[HuggingFace]({HuggingFace_URL})")
     if contact_bits:
         st.markdown(" &nbsp;|&nbsp; ".join(contact_bits))
 
